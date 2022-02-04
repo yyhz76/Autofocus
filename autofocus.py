@@ -14,7 +14,7 @@ def var_abs_laplacian(image):
 
 if __name__ == '__main__':
     # Read input video filename
-    filename = 'focus-test.mp4'
+    filename = './data/focus-test.mp4'
 
     # Create a VideoCapture object
     cap = cv2.VideoCapture(filename)
